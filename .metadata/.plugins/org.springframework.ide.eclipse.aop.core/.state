@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="002-SpringMVCFormExample"/>
+<aop-project name="014springboot"/>
+<aop-project name="012MavenSpringCore"/>
+</aop-reference-model>

@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Wed Mar 21 15:35:13 IST 2018
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\672065\\Documents\\workspace-sts-3.9.0.RELEASE\\springmvc\\WebContent\\WEB-INF\\lib\\spring-web-4.3.7.RELEASE.jar=WEB-INF/lib/spring-web-4.3.7.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\maven\\org\\springframework\\spring-web\\4.3.7.RELEASE\\spring-web-4.3.7.RELEASE.jar=WEB-INF/lib/spring-web-4.3.7.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\672065\\Documents\\workspace-sts-3.9.0.RELEASE\\springmvc\\WebContent\\WEB-INF\\lib\\spring-web-4.3.7.RELEASE-sources.jar=WEB-INF/lib/spring-web-4.3.7.RELEASE-sources.jar

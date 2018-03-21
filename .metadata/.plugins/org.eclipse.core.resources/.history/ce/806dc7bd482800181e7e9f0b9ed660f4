@@ -1,0 +1,16 @@
+package com.springmvc.first.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/home")
+public class FirstSpringMVCController {
+
+		@RequestMapping("/hello")
+		public String sayHello()
+		{
+			return "index";
+		}
+	
+}
