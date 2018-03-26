@@ -14,4 +14,6 @@
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
 <fullyQualifiedTypeName name="com.spring.form.employee.bean.EmployeeBean"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="com.springmvc.service.EmployeeService"/>
 </qualifiedTypeNameHistroy>

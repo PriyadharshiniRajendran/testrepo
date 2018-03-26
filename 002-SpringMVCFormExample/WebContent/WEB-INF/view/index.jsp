@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>Welcome To SpringMVC</h1>
-<a href="empform">Add Employee</a>  
-<a href="viewemp">View Employees</a>  
+<a href="employeeform.html">Add Employee</a>  
+<a href="viewemployee.html">View Employees</a>  
 </body>
 </html>

@@ -18,21 +18,21 @@ public class EmployeeController {
 	public ModelAndView showform() {
 		// command is a reserved request attribute name, now use <form> tag to show
 		// object data
-		return new ModelAndView("employeeform", "command", new EmployeeBean());
+		return new ModelAndView("empform", "command", new EmployeeBean());
 	}
 
-	@RequestMapping(value = "/saveEmployee", method = RequestMethod.POST)
+	@RequestMapping(value = "/save", method = RequestMethod.POST)
 	public ModelAndView save(@ModelAttribute("emp") EmployeeBean emp) {
 		// write code to save emp object
 		// here, we are displaying emp object to prove emp has data
 		System.out.println(emp.getName() + " " + emp.getSalary()+ " " + emp.getDesignation());
 
 		// return new ModelAndView("empform","command",emp);//will display object data
-		return new ModelAndView("redirect:/viewEmployee.html");// will redirect to viewemp request mapping
+		return new ModelAndView("redirect:/viewemp.html");// will redirect to viewemp request mapping
 	}
 	
 	
-	@RequestMapping("/viewEmployee")  
+	@RequestMapping("/viewemp")  
     public ModelAndView viewemp(){  
         //write the code to get all employees from DAO  
         //here, we are writing manual code of list for easy understanding  
@@ -41,7 +41,7 @@ public class EmployeeController {
         list.add(new EmployeeBean(2,"aditya",25000f,"IT Manager"));  
         list.add(new EmployeeBean(3,"sachin",55000f,"Care Taker"));  
           
-        return new ModelAndView("viewemployee","list",list);  
+        return new ModelAndView("viewemp","list",list);  
     }  
 	
 	@RequestMapping(value = "/home", method = RequestMethod.GET)

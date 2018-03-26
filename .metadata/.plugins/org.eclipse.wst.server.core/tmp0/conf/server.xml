@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." suffix=".txt"/>
 
-      <Context docBase="C:\Users\672065\Documents\workspace-sts-3.9.0.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\672065\Documents\workspace-sts-3.9.0.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\springmvc" path="/springmvc" reloadable="true" source="org.eclipse.jst.jee.server:springmvc"/><Context docBase="C:\Users\672065\Documents\workspace-sts-3.9.0.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\003_springhibernate" path="/003_springhibernate" reloadable="true" source="org.eclipse.jst.jee.server:003_springhibernate"/></Host>
+      <Context docBase="C:\Users\672065\Documents\workspace-sts-3.9.0.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\672065\Documents\workspace-sts-3.9.0.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\003_springhibernate" path="/003_SpringMVC_Hibernate" reloadable="true" source="org.eclipse.jst.jee.server:003_springhibernate"/></Host>
     </Engine>
   </Service>
 </Server>
